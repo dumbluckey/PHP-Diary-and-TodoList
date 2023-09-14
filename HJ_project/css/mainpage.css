@@ -1,0 +1,82 @@
+fieldset {
+  margin: 50px 50px;
+  padding-left: 100;
+  width: 800px;
+  height: 820px;
+  color: #02343f;
+  border: 4;
+  border-color: #02343f;
+  position: absolute;
+  top: 57%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+fieldset legend {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.profile_fd {
+  width: 700px;
+  height: 350px;
+  position: absolute;
+  top: 35%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+textarea {
+  font-family: "TTWanjudaedunsancheB";
+}
+
+hr {
+  height: 1.8px;
+  border: none;
+  background-color: #02343f;
+}
+
+.profile-image {
+  width: 220px;
+  height: 280px;
+}
+
+.pro_btn {
+  background-color: #02343f;
+  color: rgb(255, 255, 255);
+  width: 80px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1.5;
+  outline: 1.5;
+  font-family: "TTWanjudaedunsancheB";
+}
+
+input[type="button"] {
+  background-color: #02343f;
+  color: rgb(255, 255, 255);
+  width: 90px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1.5;
+  outline: 1.5;
+  font-family: "TTWanjudaedunsancheB";
+}
+
+body {
+  background-color: #f0edcc;
+  font-family: "TTWanjudaedunsancheB";
+}
+
+@font-face {
+  font-family: "TTWanjudaedunsancheB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/TTWanjudaedunsancheB.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}

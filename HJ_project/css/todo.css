@@ -1,0 +1,73 @@
+.todo_f {
+  margin: 50px 50px;
+  padding-left: 100;
+  width: 900px;
+  height: 1200px;
+  color: #02343f;
+  border: 4;
+  border-color: #02343f;
+  overflow: auto;
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  transform: translate(-30%, -30%);
+}
+
+fieldset legend {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+hr {
+  height: 1.8px;
+  border: none;
+  background-color: #02343f;
+}
+
+input[type="text"] {
+  font-family: "TTWanjudaedunsancheB";
+}
+
+input[type="button"] {
+  background-color: #02343f;
+  color: rgb(255, 255, 255);
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 6px;
+  border: 1.5;
+  outline: 1.5;
+  font-family: "TTWanjudaedunsancheB";
+}
+
+#todobtn {
+  background-color: #02343f;
+  color: rgb(255, 255, 255);
+  width: 25px;
+  height: 25px;
+  font-size: 10px;
+  font-weight: 50;
+  border-radius: 6px;
+  border: 1.5;
+  outline: 1.5;
+  font-family: "TTWanjudaedunsancheB";
+}
+
+body {
+  background-color: #f0edcc;
+  font-family: "TTWanjudaedunsancheB";
+}
+
+.col1 {
+  font-size: 30px;
+}
+
+@font-face {
+  font-family: "TTWanjudaedunsancheB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/TTWanjudaedunsancheB.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}

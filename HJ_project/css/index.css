@@ -1,0 +1,60 @@
+fieldset {
+  margin: 50px 50px;
+  padding-left: 100;
+  width: 400px;
+  height: 700px;
+  color: #02343f;
+}
+
+fieldset legend {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.center {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input[type="button"] {
+  background-color: #02343f;
+  color: rgb(255, 255, 255);
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 6px;
+  border: 1.5;
+  outline: 1.5;
+  font-family: "TTWanjudaedunsancheB";
+}
+
+input[type="text"] {
+  font-family: "TTWanjudaedunsancheB";
+}
+
+input[type="password"] {
+  font-family: "TTWanjudaedunsancheB";
+}
+
+label {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 2.6em;
+}
+
+body {
+  background-color: #f0edcc;
+  font-family: "TTWanjudaedunsancheB";
+}
+
+@font-face {
+  font-family: "TTWanjudaedunsancheB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/TTWanjudaedunsancheB.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
